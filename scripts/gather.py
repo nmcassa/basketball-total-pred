@@ -13,7 +13,7 @@ def get_parsed_page(url):
 	return BeautifulSoup(requests.get(url, headers=headers).text, "lxml")
 
 if __name__ == "__main__":
-	f = open("data/href.txt", 'w')
+	f = open("../data/href.txt", 'w')
 
 	h_boxes = []
 	months = ['October', 'November', 'December', 'January', 'February', 'March', 'April', 'May']
@@ -26,5 +26,5 @@ if __name__ == "__main__":
 		for item in boxes:
 			print(item["href"])
 			f.write(item["href"] + "\n")
-
+	f.close()
 
