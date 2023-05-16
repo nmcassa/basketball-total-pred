@@ -8,7 +8,7 @@ def get_parsed_page(url):
 		"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
 	}
 
-	time.sleep(2)
+	time.sleep(9)
 
 	return BeautifulSoup(requests.get(url, headers=headers).text, "lxml")
 
