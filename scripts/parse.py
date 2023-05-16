@@ -5,13 +5,14 @@ if __name__ == "__main__":
 	hrefs = f.read()
 
 	href_a = hrefs.split("\n")
-	href_a = href_a[:-1] #remove empty
+	href_a = href_a[657:-1] #remove empty
 
 	f.close()
 
 	base = "https://basketball-reference.com"
 
-	g = open("../data/scores.csv", "w")
+	g = open("../data/scores.csv", "a")
+	g.write("\n")
 
 	for idx, href in enumerate(href_a):
 		#this is in a comment so.
