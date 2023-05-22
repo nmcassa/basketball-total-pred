@@ -7,6 +7,9 @@
 ## Away vs Home Total Data
 ![Away vs Home Total Data](/figs/avh.png)
 
+### Charlotte Hornets vs Opponenets
+![The Hornets Suck](/figs/hornets.png)
+
 ## Team Total Distributions
 ![Team Comp](/figs/team_comp.png)
 
