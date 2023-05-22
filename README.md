@@ -4,7 +4,8 @@
 # Data
  All data was pulled from [basketball-reference.com](https://www.basketball-reference.com/). All data is from the 22-23 season that contains some of the first playoff games (I don't know which). 
 
-![Away vs Home Total Data](/fig/avh.png)
+
+![Away vs Home Total Data](/figs/avh.png)
 
 # Directory
  - [Data](/data)
